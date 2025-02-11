@@ -4,10 +4,10 @@ This project is a Java-based Library Management System (LMS) designed for managi
 
 Project Files Description
 1. l1.java
-This is the main entry point of the application, where the execution of the program begins. It initializes the GUI interface and provides the user with options to navigate to different functionalities of the Library Management System, such as student registration, book management, issue/return of books, and data modifications.
+This is the main entry point of the application, where the execution of the program begins.Where user verification done. In GUI there is two field like uer name and password we need to enetr user name as "arun" and password as "1234" then it will open home frame.
 
 2. home.java
-The home.java file represents the home screen of the application. It provides navigation buttons that allow users to access other sections of the system, such as student registration, book registration, and more. It acts as the primary interface for the user to interact with the system.
+The home.java file represents the home screen of the application. It provides navigation buttons that allow users to access other sections of the system, such as student registration, book registration, and more. It acts as the primary interface for the user to interact with the system.It initializes the GUI interface and provides the user with options to navigate to different functionalities of the Library Management System, such as student registration, book management, issue/return of books, and data modifications.
 
 3. student.java
 This file manages the student-related operations, such as registering new students into the system. It includes features to input and store student details such as name, student ID, and other relevant information. It interfaces with the Oracle database to ensure proper storage and retrieval of student data.
